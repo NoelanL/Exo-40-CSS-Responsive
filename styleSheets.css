@@ -1,0 +1,55 @@
+.container
+{
+    width: 80%;
+    background-color: cornflowerblue;
+    font-size: 2.5rem;
+}
+
+#container1
+{
+    width: 40%;
+    background-color: blueviolet;
+    display: inline-block;
+    border: 2px solid darkslategrey;
+}
+
+.container2
+{
+    width: 20%;
+    background-color: orangered;
+    display: inline-block;
+}
+
+#second-container
+{
+    border: 2px dashed red;
+}
+
+#third-container
+{
+    border: 2px solid deeppink;
+}
+
+@media screen and (max-width: 350px) {
+    .container
+    {
+        font-size: 1.5rem;
+        color: transparent;
+        margin: 0;
+        width: 100%;
+    }
+
+    a
+    {
+        color: transparent;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container2
+    {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+}
